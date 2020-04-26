@@ -5,3 +5,5 @@ Martin Mandina
 This project details on setting up a basic portfolio. Its supposed to showcase the author current and past projects and links to the projects.
 ## Technologies used
 HTML/CSS
+## Known Bugs
+Have to specify file type to commit.

@@ -10,7 +10,31 @@ font: tahoma,verdana, arial;
   margin: 20px;
   background-color: #feffca;
 }
-#image{}
-#projects{}
-#aboutme{}
-#copyright{}
+#image{
+  width:70%;
+  border: 15px solid green;
+  padding 50px;
+  margin: 20px;
+  background-color: green;
+}
+#projects{
+  width:70%;
+  border: 15px solid green;
+  padding 50px;
+  margin: 20px;
+  background-color: #feffca;
+}
+#aboutme{
+  width:70%;
+  border: 15px solid green;
+  padding 50px;
+  margin: 20px;
+  background-color: #feffca;
+}
+#copyright{
+  width:70%;
+  border: 15px solid green;
+  padding 50px;
+  margin: 20px;
+  background-color: #feffca;
+}

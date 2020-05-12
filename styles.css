@@ -1,7 +1,10 @@
 @author : martin mandina;
-body{background-color: #feffca;}
+body{background-color: #feffca;
+font-family: sans-serif;
+font: tahoma,verdana, arial;
+}
 #pageheading{
-  width:100%;
+  width:70%;
   border: 15px solid green;
   padding 50px;
   margin: 20px;

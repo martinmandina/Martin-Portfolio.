@@ -2,34 +2,38 @@
 body{background-color: #feffca;
 font-family: sans-serif;
 font: tahoma,verdana, arial;
+align-content: center;
+margin: 0 auto;
 }
 #pageheading{
   width:70%;
   border: 15px solid green;
   padding 50px;
-  margin: 20px;
-  background-color: #feffca;
+  background-color: green;
+  margin: 0 auto;
+  color:white;
+
 }
 #image{
   width:70%;
   border: 15px solid green;
   padding 50px;
-  margin: 20px;
   background-color: green;
+  margin: 0 auto;
 }
 #projects{
   width:70%;
   border: 15px solid green;
   padding 50px;
-  margin: 20px;
   background-color: #feffca;
+  margin: 0 auto;
 }
 #aboutme{
   width:70%;
   border: 15px solid green;
   padding 50px;
-  margin: 20px;
   background-color: #feffca;
+  margin: 0 auto;
 }
 #copyright{
   width:70%;

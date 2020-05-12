@@ -5,39 +5,41 @@ font: tahoma,verdana, arial;
 align-content: center;
 margin: 0 auto;
 }
+h1{text-shadow: 2px 2px yellow;}
 #pageheading{
   width:70%;
-  border: 15px solid green;
+  border: 15px solid ##ffffcc;
   padding 50px;
-  background-color: green;
+  //background-color: #ccffcc;
   margin: 0 auto;
-  color:white;
+  color: #003300
+;
 
 }
 #image{
   width:70%;
-  border: 15px solid green;
+  border: 15px solid #ffffcc;
   padding 50px;
-  background-color: green;
+  background-color: #ccffcc;
   margin: 0 auto;
 }
 #projects{
   width:70%;
-  border: 15px solid green;
+  border: 15px solid  #e6e600;
   padding 50px;
   background-color: #feffca;
   margin: 0 auto;
 }
 #aboutme{
   width:70%;
-  border: 15px solid green;
+  border: 5px solid #ccffcc;
   padding 50px;
   background-color: #feffca;
   margin: 0 auto;
 }
 #copyright{
   width:70%;
-  border: 15px solid green;
+  border: 15px solid #ccffcc;
   padding 50px;
   margin: 20px;
   background-color: #feffca;

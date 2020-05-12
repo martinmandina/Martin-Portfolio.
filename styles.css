@@ -1,5 +1,11 @@
 @author : martin mandina;
-#pageheading{}
+#pageheading{
+  width:100%;
+  border: 15px solid green;
+  padding 50px;
+  margin: 20px;
+  background-color: #feffca;
+}
 #image{}
 #projects{}
 #aboutme{}

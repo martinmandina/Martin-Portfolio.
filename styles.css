@@ -5,17 +5,19 @@ font: tahoma,verdana, arial;
 align-content: center;
 margin: 0 auto;
 }
-h1{text-shadow: 2px 2px yellow;}
-h2{text-shadow: 2px 2px red;}
+h1{
+  text-shadow: 2px 2px yellow;
+}
+h2{
+  text-shadow: 2px 2px red;
+}
 #pageheading{
   width:70%;
   border: 5px solid ##ffffcc;
   padding 50px;
   //background-color: #ccffcc;
   margin: 0 auto;
-  color: #003300
-;
-
+  color: #003300;
 }
 #image{
   width:70%;

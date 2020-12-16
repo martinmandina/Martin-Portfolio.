@@ -28,14 +28,14 @@ h2{
 }
 #projects{
   width:70%;
-  border: 5px solid   #e6e600;
+  /* border: 5px solid   #e6e600; */
   padding 50px;
   background-color: #feffca;
   margin: 0 auto;
 }
 #aboutme{
   width:70%;
-  border: 5px solid #e6e600;
+  /* border: 5px solid #e6e600; */
   padding 50px;
   background-color: #feffca;
   margin: 0 auto;

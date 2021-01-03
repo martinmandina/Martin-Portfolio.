@@ -3,57 +3,219 @@
 <head>
   <title>Martin Mandina Portfolio</title>
   <link href="./styles.css" rel="stylesheet type="text/css">
+  <link rel="stylesheet" href="w3.css">
+  <!-- TOP MENU NAVIGATION -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font_body" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @font-face {
+  font-family: "Marto";
+  src: url("Marto.ttf");
+}
+  body {
+    font-family: Marto,Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    font-family: Marto,Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* form css */
+  * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  </style>
+<!-- TOP MENU NAVIGATION END-->
 </head>
 <body>
-
-  <div id="introduction">
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#aboutme">About Me</a>
+    <a href="#myprojects">My Projects</a>
+    <div class="dropdown">
+      <button class="dropbtn">Contact Me 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#contactme">martinsmandina@gmail.com</a>
+        <a href="https://github.com/martinmandina/" target="_blank">Github&trade;</a>
+        <a href="https://www.linkedin.com/in/martin-mandina-9436691b1" target="_blank">Linked In &copy;</a>
+      </div>
+    </div> 
   </div>
-  <div id="pageheading"><center><h1>MARTIN MANDINA</h1></center></div>
-  <div id="image"></div>
-  <center>
-    <img src="img/marto.jpg" alt="a photo of me" width="70%" height="400px" style="border: 0px solid #1a1a18" >
-  </center>
-  <br/>
-  <div id="projects"><h2>Software Developer</h2>
-    <!-- <h3><em>SOFTWARE DEVELOPMENT</em></h3> -->
-    <h3><strong>MY PROJECTS!</strong></h3>
-    <!-- <h3><span><strong>List Of Projects:</strong></h3> -->
-      <ol>
-        <li><a href="https://martinmandina.github.io/Delani-Studio/">Delani Studios</a>
-          <br/><span>This is an Web Design Portfolio Single Page Application.</span></li>
-            <li><a href="https://github.com/martinmandina/MoreToppingz">MoreToppingz</a>
-            <br/><span>A pizza web application that allows customers to<br>order different sizes of pizzas with one or more toppings.</span></li>
-            <li><a href="https://github.com/martinmandina/Red-Oaks">Red-Oaks</a>
-              <br/><span>A real estate web app that links home buyers with <br>
-                 potential home owners or seller not limited to landlords or tenants.
-              </span></li>
-              <li><a href="https://github.com/martinmandina/News-API">News-Api</a>
-                <br/><span>This is an Web Application that shows a list of news websites <br>and respective articles from various news sources.</span></li>
-        </ol>
-      </span>
+  
+  <div><center><h1>MARTIN MANDINA</h1></center></div>
+
+      
     </div>
     <br/>
     <div id="aboutme">
-      <h1>About Me</h1>
-      <p>I am a passionate Programmer and enjoy learning new concepts and exploring
-        new developments in the ICT industry to help me stay on cutting edge and to ensure that I give my clients the best that technology has to offer.</p>
-      <br><h4><b>Education:</b></h4>
-      <p>Certificate Secondary Education.</p>
-      <br><b>Job Experience:</b>
-      <p>Clerical Data entry work for Nasadiki Ltd.</p>
-      <br><b>Why:</b><br>
-      <p>As a Programmer its my rensponsibility to create and actualise ideas through code and seeing those ideas being a reality,<br> </p>
-        
-        <h2><u>Interests</u></h2>
-
-        <ul>
-          <li>Basketball</li>
-          <li>Rugby</li>
-          <li>Football</li>
-          <li>Travelling</li>
-          <li>Reading Fiction</li>
-        </ul>
+      <a name="aboutme"><h1>About Me</h1></a>
+      
+      <p style="font-size: 20px;"><!--border-radius: 50%;--> <img src="img/martinsquare.png" alt="a photo of me" width="30%" height="30%" style="  padding 50px;
+        margin: 20px; float: left;border-radius: 50%;">
+        <br/><br/><br/>Hi, I’m Martin. I’m a Web Developer currently residing in Nairobi, Kenya. I am a fan of technology, design, and programming.My major interests being Web Development and Innovation.I am a passionate Programmer and enjoy learning new concepts and exploring
+        new developments in the ICT industry to help me stay on the cutting edge and 
+        to ensure that I give my clients the best that technology has to offer.
+      As a Programmer it's my rensponsibility to create 
+      and actualize ideas through code and seeing those ideas coming to reality.<br> </p>
       </div>
-      <div id="copyright">Martin Mandina &copy; 2020 | All Rights Reserved</div>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><div id="projects"> <a name="myprojects"><h1>My PROJECTS</h1></a>
+        <div class="w3-container">
+          <!-- <p>the following are some of the projects that i have done.</p> -->
+        
+          <a href="https://martinmandina.github.io/Delani-Studio/"><div class="w3-panel w3-card w3-yellow"><p><img src="./delani_tiny.png"><h1>Delani Studios</h1>This is an Web Design Portfolio Single Page Application.</p></div></a>
+          <a href="https://martinmandina.github.io/MoreToppingz/"><div class="w3-panel w3-card-2 w3-yellow"><p><img src="./toppings_tiny.png"><h1>MoreToppingz</h1>A pizza web application that allows customers to order different sizes of pizzas with one or more toppings.</p></div></a>
+          <a href="https://martinmandina.github.io/Red-Oaks/"><div class="w3-panel w3-card-4 w3-yellow"><p><img src="redoaks_scale.png"><h1>Red-Oaks</h1>A real estate web app that links home buyers with
+            potential home owners or seller not limited to landlords or tenants.</p></div></a>
+            <a href="https://newsarticlessources.herokuapp.com/"><div class="w3-panel w3-card-4 w3-yellow"><p><img src="news_tiny.png"><h1>News-Api</h1>This is an Web Application that shows a list of news websites 
+              and respective articles from various news sources.</p></div></a>
+        </div>
+      </div>
+
+        
+      
+
+      <div id="contactme">
+        <a name="contactme"><h1>Contact Me</h1></a>
+        <div class="container">
+          <form action="mailto:martinsmandina@gmail.com" target="_blank">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="kenya">Kenya</option>
+              <option value="uganda">Uganda</option>
+              <option value="tanzania">Tanzania</option>
+              <option value="other">Other</option>
+
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="More info....." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+      </div>
+      <div id="copyright">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Martin Mandina &copy; 2021 | All Rights Reserved | <a href="mailto:martinsmandina@gmail.com"> martinsmandina@gmail.com</a> | <a href="callto:+254722675630">0722 675630</a> | <a href="https://wa.me/254722675630">whatsapp</a></div>
     </body>
     </html>

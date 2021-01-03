@@ -1,49 +1,50 @@
 @author : martin mandina;
-body{background-color: #feffca;
+body{background-color: #fff;
 font-family: sans-serif;
 font: tahoma,verdana, arial;
 align-content: center;
 margin: 0 auto;
 }
 h1{
-  text-shadow: 2px 2px yellow;
+  text-shadow: 2px 2px rgb(211, 211, 202);
 }
 h2{
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px rgb(56, 55, 55);
 }
 #pageheading{
   width:70%;
-  border: 5px solid ##ffffcc;
+  border: 5px solid #ffffcc;
   padding 50px;
   //background-color: #ccffcc;
   margin: 0 auto;
   color: #003300;
 }
+/*
 #image{
-  width:50%;
-  border: 5px solid #ffffcc;
+  /*width:50%;*/
+/*  border: 5px solid #ffffcc;
   padding 50px;
-  background-color: #ccffcc;
+
   margin: 0 auto;
-}
+}*/
 #projects{
-  width:70%;
+
   /* border: 5px solid   #e6e600; */
   padding 50px;
-  background-color: #feffca;
+
   margin: 0 auto;
 }
 #aboutme{
-  width:70%;
+
   /* border: 5px solid #e6e600; */
   padding 50px;
-  background-color: #feffca;
+ /* background-color: #e7e7e0; */
   margin: 0 auto;
 }
 #copyright{
-  width:70%;
+  width:100%;
   padding 50px;
   margin: 20px;
-  background-color: #feffca;
+ /* background-color: #feffca;*/
   float: right;
 }
